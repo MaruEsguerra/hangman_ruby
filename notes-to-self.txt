@@ -1,0 +1,28 @@
+# Download the google-10000-english-no-swears.txt from the first20hours GitHub Repo.
+
+# When new game starts, read and load the dictionary and RANDOMLY select a word between
+# 5-12 chars long to be the game's secret word.
+
+# No need for actual stick figure, but display a counter (likely how many guesses left)
+# before the game ends. Would also be ideal to display which letters guesses are correct
+# ex. tic tac toe but hangman? Like if word is persian then _ e _ _ i _ n. So letters are
+# initially _ (perhaps loop)?
+
+# Every turn counter, let player guess a letter. It SHOULD be case INSENSITIVE. Update the display to
+# reflect whether the letter was correct or incorrect. If out of guesses, the player should lose.
+
+# When this all works, implement an option where at the story of any turn, instead of making player
+# guess, they may save the game if they opt to. This is focused on serialization (YAML, JSON, etc.)
+
+# After that, when program first loads, add option that allows you to open one of your saved games,
+# which should jump back to exactly where you were when you saved.
+
+# New topics: Files and Serialization -> reading and writing for saved game + dictionary, yaml/json
+# for saving. Serializing + unserializing module mixin?
+
+# Necessary stuff:
+# Classes: Game, Player, Board, Word* (for the secret word or implement in Game?)
+# Module: Serialization mixin
+# File: google-10000-english-no-swears.txt
+
+# Double check if a Saving Class is necessary or if required saving data is in Game or Player Class.

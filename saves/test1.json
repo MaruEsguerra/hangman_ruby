@@ -1,0 +1,35 @@
+{
+  "player_name": "Ashe",
+  "secret_word": [
+    "E",
+    "L",
+    "E",
+    "C",
+    "T",
+    "I",
+    "O",
+    "N"
+  ],
+  "display_word": [
+    "E",
+    "L",
+    "E",
+    "C",
+    "T",
+    "_",
+    "_",
+    "_"
+  ],
+  "wrong_guesses": [
+    "A"
+  ],
+  "all_guessed_letters": [
+    "C",
+    "A",
+    "E",
+    "L",
+    "T"
+  ],
+  "guesses_left": 5,
+  "game_active": true
+}
